@@ -13,7 +13,7 @@ Create a directory for your `mender-raspberrypi` setup to live in and clone the 
 ```
 $ mkdir mender-raspberrypi
 $ cd mender-raspberrypi
-$ repo init -u https://github.com/mirzak/mender-raspberrypi-manifest.git -b master
+$ repo init -u https://github.com/mirzak/mender-raspberrypi-manifest.git -b pyro
 $ repo sync
 ```
 
