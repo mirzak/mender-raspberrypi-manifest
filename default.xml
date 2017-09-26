@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="master"/>
+  <default sync-j="4" revision="pyro"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/mirzak" name="mender"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/agherzan" name="rpi"/>
 
-  <project remote="yocto" revision="master" name="poky" path="layers/poky"/>
-  <project remote="oe" revision="master" name="meta-openembedded" path="layers/meta-openembedded"/>
-  <project remote="rpi" revision="master" name="meta-raspberrypi" path="layers/meta-raspberrypi"/>
-  <project remote="mender" revision="master" name="meta-mender" path="layers/meta-mender"/>
+  <project remote="yocto" revision="pyro" name="poky" path="layers/poky"/>
+  <project remote="oe" revision="pyro" name="meta-openembedded" path="layers/meta-openembedded"/>
+  <project remote="rpi" revision="pyro" name="meta-raspberrypi" path="layers/meta-raspberrypi"/>
+  <project remote="mender" revision="pyro" name="meta-mender" path="layers/meta-mender"/>
 
 </manifest>
