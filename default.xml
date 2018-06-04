@@ -8,9 +8,9 @@
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/agherzan" name="rpi"/>
 
-  <project remote="yocto" revision="master" name="poky" path="layers/poky"/>
-  <project remote="oe" revision="master" name="meta-openembedded" path="layers/meta-openembedded"/>
-  <project remote="rpi" revision="master" name="meta-raspberrypi" path="layers/meta-raspberrypi"/>
-  <project remote="mender" revision="master" name="meta-mender" path="layers/meta-mender"/>
+  <project remote="yocto" revision="rocko" name="poky" path="layers/poky"/>
+  <project remote="oe" revision="rocko" name="meta-openembedded" path="layers/meta-openembedded"/>
+  <project remote="rpi" revision="rocko" name="meta-raspberrypi" path="layers/meta-raspberrypi"/>
+  <project remote="mender" revision="rocko" name="meta-mender" path="layers/meta-mender"/>
 
 </manifest>
