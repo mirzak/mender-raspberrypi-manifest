@@ -4,13 +4,15 @@
   <default sync-j="4" revision="master"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
-  <remote fetch="https://github.com/mirzak" name="mender"/>
+  <remote fetch="https://github.com/mendersoftware" name="mender"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/agherzan" name="rpi"/>
+  <remote fetch="https://github.com/mirzak" name="mirzak"/>
 
   <project remote="yocto" revision="rocko" name="poky" path="layers/poky"/>
   <project remote="oe" revision="rocko" name="meta-openembedded" path="layers/meta-openembedded"/>
   <project remote="rpi" revision="rocko" name="meta-raspberrypi" path="layers/meta-raspberrypi"/>
   <project remote="mender" revision="rocko" name="meta-mender" path="layers/meta-mender"/>
+  <project remote="mirzak" revision="rocko" name="mender-raspberrypi-conf" path="rpi-templates"/>
 
 </manifest>
