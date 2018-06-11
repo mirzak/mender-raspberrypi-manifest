@@ -24,10 +24,10 @@ $ export TEMPLATECONF=${PWD}/rpi-templates
 $ . layers/poky/oe-init-build-env build
 ```
 
-The template files that are in `meta-mender-raspberrpi` should contain
+The template files that are in `rpi-templates` should contain
 everything that is needed to build an image with integrates Mender.
 
-**NOTE** Default `MACHINE` is set to `raspberrpi3`, adjust if you want to build
+**NOTE** Default `MACHINE` is set to `raspberrypi3`, adjust if you want to build
 for another machine.
 
 **NOTE!** You only need to export TEMPLATECONF the first time you setup the
