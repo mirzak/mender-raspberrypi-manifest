@@ -9,10 +9,10 @@
   <remote fetch="https://github.com/agherzan" name="rpi"/>
   <remote fetch="https://github.com/mirzak" name="mirzak"/>
 
-  <project remote="yocto" revision="master" name="poky" path="layers/poky"/>
-  <project remote="oe" revision="master" name="meta-openembedded" path="layers/meta-openembedded"/>
-  <project remote="rpi" revision="master" name="meta-raspberrypi" path="layers/meta-raspberrypi"/>
-  <project remote="mender" revision="master" name="meta-mender" path="layers/meta-mender"/>
-  <project remote="mirzak" revision="master" name="mender-raspberrypi-conf" path="rpi-templates"/>
+  <project remote="yocto" revision="sumo" name="poky" path="layers/poky"/>
+  <project remote="oe" revision="sumo" name="meta-openembedded" path="layers/meta-openembedded"/>
+  <project remote="rpi" revision="sumo" name="meta-raspberrypi" path="layers/meta-raspberrypi"/>
+  <project remote="mender" revision="sumo" name="meta-mender" path="layers/meta-mender"/>
+  <project remote="mirzak" revision="sumo" name="mender-raspberrypi-conf" path="rpi-templates"/>
 
 </manifest>

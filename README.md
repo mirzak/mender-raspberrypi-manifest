@@ -14,7 +14,7 @@ meta information.
 ```
 $ mkdir mender-raspberrypi
 $ cd mender-raspberrypi
-$ repo init -u https://github.com/mirzak/mender-raspberrypi-manifest.git -b master
+$ repo init -u https://github.com/mirzak/mender-raspberrypi-manifest.git -b sumo
 $ repo sync
 ```
 
